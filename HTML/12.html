@@ -1,0 +1,75 @@
+<!-- 
+Radio Buttons and Checkboxes
+
+Add a group of radio buttons for selecting gender (Male, Female, Other).
+Add a group of checkboxes for selecting hobbies (e.g., Reading, Traveling, Cooking).
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h2>gender</h2>
+    <label for="male">Male</label>
+    <input type="radio" name="" id="male">
+    <label for="male">Female</label>
+    <input type="radio" name="" id="male">
+    <label for="other">Other</label>
+    <input type="radio" name="" id="other">
+    <h2>hobbies</h2>
+    <label for="reading">Reading</label>
+    <input type="checkbox" name="" id="reading">
+    <label for="traveling">Traveling</label>
+    <input type="checkbox" name="" id="traveling">
+    <label for="cooking">Cooking</label>
+    <input type="checkbox" name="" id="cooking"> -->
+
+    <form action="">
+        <h2>Radio Buttons and Checkboxes</h2>
+        <fieldset>
+            <legend>Gender:</legend>
+            <label for="male">
+                <input type="radio" id="male" name="gender" value="male" required>
+                Male
+            </label>
+            <br>
+            <label for="female">
+                <input type="radio" id="female" name="gender" value="female">
+                Female
+            </label>
+            <br>
+            <label for="other">
+                <input type="radio" id="other" name="gender" value="other">
+                Other
+            </label>
+        </fieldset>
+        <br>
+        
+        <fieldset>
+            <legend>Hobbies:</legend>
+            <label for="reading">
+                <input type="checkbox" id="reading" name="hobbies" value="reading">
+                Reading
+            </label>
+            <br>
+            <label for="traveling">
+                <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+                Traveling
+            </label>
+            <br>
+            <label for="cooking">
+                <input type="checkbox" id="cooking" name="hobbies" value="cooking">
+                Cooking
+            </label>
+        </fieldset>
+        <br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
